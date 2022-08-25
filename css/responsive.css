@@ -1,0 +1,70 @@
+@media (max-width: 992px) {
+  /* ============ HEADER DESCRIPTION ============ */
+  .header-container {
+    height: 85vh;
+  }
+
+  .introduction-div {
+    border-right: none;
+    /* border-radius: 0 0 0 0; */
+    /* border-radius: none; */
+    width: 100%;
+  }
+  .introduction-div .text {
+    padding-left: 0;
+    padding: 10rem 2rem;
+  }
+
+  .introduction-div .text h1 {
+    font-size: 4rem;
+  }
+  /* ============ GIS solutions ============ */
+  .GIS-solutions-categories img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* ============ GIS solutions ============ */
+  .GIS-solutions-categories img {
+    width: 39%;
+  }
+}
+
+@media (max-width: 540px) {
+  .show-bar {
+    font-size: 1.5rem;
+    color: rgb(8, 60, 104);
+  }
+
+  .hide-bar {
+    font-size: 2rem;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+
+  /* ============ HEADER DESCRIPTION ============ */
+  .header-container {
+    height: 70vh;
+  }
+
+  .introduction-div .text {
+    padding-left: 0;
+    padding: 5rem 2rem;
+  }
+  .introduction-div .text h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 280px) {
+  /* ============ HEADER DESCRIPTION ============ */
+
+  .introduction-div .text {
+    padding: 2rem 2rem;
+  }
+  .introduction-div .text h1 {
+    font-size: 2rem;
+  }
+}

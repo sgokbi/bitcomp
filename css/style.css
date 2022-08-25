@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+:root {
+  --primary-color: #18658a;
+  --text-white: #fff;
+  --light-blue: #4095d2;
+  --text-grey: #363636;
+  --black: #191919;
+  --paragraph-color: #605f5f;
+}
+
+p {
+  font-size: 1.08rem;
+  color: var(--paragraph-color);
+  letter-spacing: 0.02rem;
+}
+
+.section-space-separate {
+  margin-top: 4.2rem;
+  margin-bottom: 4rem;
+}
+
+/* ====== NAVBAR ======  */
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  width: 65%;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.show-bar {
+  font-size: 1.8rem;
+}
+
+.hide-bar {
+  font-size: 3rem;
+  display: none;
+  color: var(--primary-color);
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  /* font-size: 0.9rem; */
+  font-size: 0.9rem;
+  margin-left: 0.4rem;
+  color: var(--black) !important;
+  letter-spacing: 0.042rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.navbar-nav .nav-link::before {
+  content: "";
+  width: 0%;
+  height: 0.15rem;
+  position: absolute;
+  background-color: var(--light-blue);
+  top: 2.5rem;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover:before {
+  width: 100%;
+}
+.navbar-nav .nav-link:hover {
+  color: gray !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 1rem;
+  margin-top: 1.3rem;
+}
+
+.navbar .dropdown-item {
+  font-size: 0.8rem;
+  /* margin: 0.5rem; */
+  padding: 0.5rem;
+}
+.navbar .dropdown-item:hover {
+  background-color: var(--light-blue);
+  color: var(--text-white);
+}
+
+/* ++++++++++++++++ ======== hover show =====++++++++++++++++ */
+/* .drop-items {
+  display: none;
+}
+
+.navbar-nav .nav-item:hover .drop-items {
+  top: 100%;
+  left: 1rem;
+  margin-top: 1.7rem;
+  display: block;
+} */
+
+/* ====== INTRODUCTION HEADING ======  */
+
+.header-container {
+  background-image: url(../images/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  position: relative;
+}
+
+.introduction-div {
+  background-color: rgba(11, 64, 89, 0.8);
+  border-right: 15px solid #fff;
+  border-radius: 0 0% 50% 0;
+  width: 50%;
+  padding-top: 0;
+}
+.introduction-div .text {
+  padding-left: 5rem;
+}
+
+.introduction-div .text h1 {
+  font-size: 4rem;
+}
+
+/* ===== GIS solutions section =========  */
+
+.GIS-solutions-introduction h3 {
+  color: var(--primary-color);
+}
+
+.GIS-solutions-categories h4 {
+  color: var(--primary-color);
+}
+
+.GIS-solutions-categories img {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.GIS-solutions-categories h4 {
+  color: var(--primary-color);
+  margin: 1.4rem 0;
+}
+
+.btn-primary {
+  padding: 0.4rem 1rem;
+  background-color: var(--primary-color);
+  /* width: 40%; */
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  font-weight: 100;
+}
