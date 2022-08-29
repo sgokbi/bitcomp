@@ -1,3 +1,7 @@
+/* @media (max-width: 1200px) {
+  
+} */
+
 @media (max-width: 992px) {
   /* ============ HEADER DESCRIPTION ============ */
   .header-container {
@@ -21,6 +25,15 @@
   /* ============ GIS solutions ============ */
   .GIS-solutions-categories img {
     width: 60%;
+  }
+
+  /* ============ BLOG section ============ */
+  .blog-heading {
+    padding: 2.4rem 1.2rem;
+  }
+
+  .blog-heading h5 {
+    font-size: 1.2rem;
   }
 }
 
@@ -58,6 +71,31 @@
   }
 }
 
+@media (max-width: 480px) {
+  /* ============ BLOG section ============ */
+  .blog-heading {
+    padding: 2rem 1.2rem;
+  }
+
+  .blog-heading h5 {
+    font-size: 0.8rem;
+  }
+
+  /* ============ BLOG section ============ */
+  .blog-heading {
+    padding: 1.8rem 1rem;
+  }
+
+  /* .blog-heading h5 {
+    font-size: 0.5rem;
+  } */
+
+  .blog-heading small {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+}
+
 @media (max-width: 280px) {
   /* ============ HEADER DESCRIPTION ============ */
 
@@ -66,5 +104,19 @@
   }
   .introduction-div .text h1 {
     font-size: 2rem;
+  }
+
+  /* ============ BLOG section ============ */
+  .blog-heading {
+    padding: 1.2rem 1rem;
+  }
+
+  .blog-heading h5 {
+    font-size: 0.5rem;
+  }
+
+  .blog-heading small {
+    font-weight: 600;
+    font-size: 0.5rem;
   }
 }

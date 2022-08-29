@@ -168,3 +168,45 @@ p {
   border-radius: 5px;
   font-weight: 100;
 }
+
+/* ===== BLOG section =========  */
+
+.blogs {
+  padding: 5rem 0;
+  background: var(--primary-color);
+}
+
+.blog-card {
+  overflow: hidden;
+}
+
+.blogs img {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.blog-heading {
+  background-color: rgba(55, 60, 61, 0.4);
+  position: absolute;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.blog:hover img {
+  transform: scale(1.1);
+}
+
+.blog:hover .blog-heading {
+  background-color: unset;
+}
+
+.blog-heading h5 {
+  font-size: 1.5rem;
+}
+
+.blog-heading small {
+  color: var(--primary-color);
+  font-weight: 700;
+}
