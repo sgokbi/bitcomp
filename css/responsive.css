@@ -1,7 +1,3 @@
-/* @media (max-width: 1200px) {
-  
-} */
-
 @media (max-width: 992px) {
   /* ============ HEADER DESCRIPTION ============ */
   .header-container {
@@ -35,12 +31,46 @@
   .blog-heading h5 {
     font-size: 1.2rem;
   }
+
+  /* ============ CAREER section ============ */
+  .career .video {
+    height: 28vh;
+  }
+
+  .career iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ===== FOOTER section =========  */
+  footer {
+    margin: 5rem 0rem 2rem;
+  }
 }
 
 @media (max-width: 768px) {
   /* ============ GIS solutions ============ */
   .GIS-solutions-categories img {
     width: 39%;
+  }
+
+  /* ============  CONTACT section ============ */
+  .contact {
+    padding: 4rem 1rem;
+  }
+
+  .contact-logo-img {
+    width: 70%;
+  }
+
+  .contact-logo-img img {
+    margin-bottom: 2rem;
+  }
+
+  /* ===== FOOTER section =========  */
+  footer {
+    margin: 5rem 1.17rem 2rem;
+    padding: 4rem 1rem;
   }
 }
 
@@ -69,6 +99,22 @@
   .introduction-div .text h1 {
     font-size: 2.2rem;
   }
+
+  /* ============ CAREER section ============ */
+  .career .video {
+    height: 35vh;
+  }
+
+  /* ============ COUNTDOWN section ============ */
+  .countdown-div {
+    display: block;
+  }
+
+  /* ===== FOOTER section =========  */
+  footer {
+    margin: 1.5rem 1.17rem 0.6rem;
+    padding: 1.9rem 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -81,7 +127,6 @@
     font-size: 0.8rem;
   }
 
-  /* ============ BLOG section ============ */
   .blog-heading {
     padding: 1.8rem 1rem;
   }
@@ -94,6 +139,13 @@
     font-weight: 600;
     font-size: 0.8rem;
   }
+
+  /* ============ CAREER section ============ */
+  .career .video {
+    height: 30vh;
+  }
+
+  /* ===== FOOTER section =========  */
 }
 
 @media (max-width: 280px) {
@@ -118,5 +170,27 @@
   .blog-heading small {
     font-weight: 600;
     font-size: 0.5rem;
+  }
+  /* ============ CAREER section ============ */
+  .career .video {
+    height: 25vh;
+  }
+
+  /* ===== FOOTER section =========  */
+  footer {
+    padding: 1rem 1rem;
+  }
+  .links a {
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .links .copyright {
+    padding-top: 2.4rem;
+  }
+
+  .copyright p {
+    font-size: 0.9rem;
   }
 }

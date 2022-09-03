@@ -21,12 +21,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- ===== AOS ANIMATION LINK =====  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm"
+      >
         <div class="container">
           <a class="navbar-brand w-50" href="#"
             ><img class="" src="images/Bitcompin-logo-croped.png" alt=""
@@ -70,21 +76,6 @@
                   </li>
                 </ul>
               </li>
-
-              <!-- ==============  -->
-              <!-- <li class="nav-item">
-                <a class="nav-link"> Forest information systems </a>
-                <ul class="drop-items border-0 bg-white shadow">
-                  <li><a class="dropdown-item" href="#">Forest</a></li>
-                  <li><a class="dropdown-item" href="#"> LeafPoint</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Custom Forest Information System</a
-                    >
-                  </li>
-                </ul>
-              </li> -->
-              <!-- ==============  -->
 
               <li class="nav-item dropdown">
                 <a
@@ -273,7 +264,7 @@
         <div class="container">
           <h1 class="text-center text-white pb-5">BLOG</h1>
           <div class="row row-cols-2 row-cols-md-3 g-4">
-            <div class="col blog">
+            <div class="col blog" data-aos="fade-up" data-aos-delay="100">
               <div class="card blog-card border-0">
                 <img
                   src="images/blog-front-1.png"
@@ -289,7 +280,7 @@
               </div>
             </div>
 
-            <div class="col blog">
+            <div class="col blog" data-aos="fade-up" data-aos-delay="400">
               <div class="card blog-card border-0">
                 <img
                   src="images/blog-front-2.png"
@@ -304,7 +295,7 @@
                 </div>
               </div>
             </div>
-            <div class="col blog">
+            <div class="col blog" data-aos="fade-up" data-aos-delay="700">
               <div class="card blog-card border-0">
                 <img
                   src="images/blog-front-3.png"
@@ -322,7 +313,317 @@
           </div>
         </div>
       </section>
+
+      <!-- ======= CAREER SECTION START ========  -->
+      <section id="career" class="career section-space-separate">
+        <div class="container">
+          <h1 class="text-center">CAREERS IN NATURE AND TECHNOLOGY</h1>
+          <div class="row">
+            <h4 class="pt-4 pb-3">What’s it like working with us?</h4>
+            <div class="col-lg-7 col-md-12 col-sm-12 video">
+              <div class="p-3 p-lg-0 video">
+                <iframe
+                  src="https://www.youtube.com/embed/thp6l44zy7U"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 pt-sm-5 pt-lg-0">
+              <div class="p-3 pe-lg-0">
+                <p>
+                  With us, you get to work coding systems and creating analyses
+                  to enable more sustainable forest management, maintain
+                  biodiversity, and tackle risks caused by the climate change.
+                  Our products utilize satellite data, artificial intelligence
+                  and automation, as well as nature and forest resource
+                  information.
+                </p>
+                <br />
+                <p>
+                  Does this sound interesting and important to you? It certainly
+                  is! Apply to join our innovative and easygoing work community
+                  united by love for forests.
+                </p>
+                <button class="btn-primary">CAREER AT BITCOMP</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= RESEARCH & DEVELOPMENT SECTION START ========  -->
+      <section id="research" class="research section-space-separate">
+        <div class="research-heading text-center">
+          <h1>WHAT WE HAVE GOING ON</h1>
+        </div>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-lg-5 col-sm-12">
+              <div class="research-img p-3">
+                <img class="img-fluid" src="images/research.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="col-lg-7 col-sm-12 research-technology-introduction-div ps-lg-5 pe-lg-5"
+            >
+              <div class="p-3">
+                <p class="research-technology-text">Research & Development</p>
+                <h3 class="mb-3">
+                  Carbon captured can be reported in real-time
+                </h3>
+                <p>
+                  How can satellite data and artificial intelligence aid us in
+                  measuring carbon captured in forest biomass?
+                </p>
+                <br />
+                <p>
+                  Carbon reporting is a core part of our
+                  <a class="text-dark" href="">EnviNavigator project</a>
+                  In our blog we wanted to discuss some of the opportunities
+                  satellite imagery and AI have related to carbon balance
+                  calculations. Even a real-time reporting of carbon captured in
+                  forests can already be implemented in modern forest systems.
+                </p>
+                <button class="btn-primary">READ THE BLOG POST</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= TECHNOLOGY SECTION START ========  -->
+      <section id="technology" class="technology">
+        <div class="container">
+          <div class="row mt-5">
+            <div
+              class="col-lg-7 col-sm-12 research-technology-introduction-div ps-lg-5 pe-lg-5"
+            >
+              <div class="p-3">
+                <p class="research-technology-text">Technology</p>
+                <h3 class="mb-3">Forest Change Detection Service</h3>
+                <p>
+                  Save money and time by focusing field work to the correct
+                  areas. By processing satellite data with the help of
+                  artificial intelligence, automated monitoring of environment
+                  becomes faster than ever before. For example storm and insect
+                  damages can then be quickly estimated.
+                </p>
+                <br />
+                <p>
+                  Analyzed remote sensing data can also be combined with carbon
+                  balance models. This helps in mapping out optimal actions for
+                  creating carbon storage.
+                </p>
+                <br />
+                <p>
+                  In production Finland-wide since June, the next steps for the
+                  forest change detection service are adding features to the
+                  current service. Additionally, the service will be integrated
+                  to other services, for example to WoodsApp™ as a map layer.
+                  The service can also be extended to other countries.
+                </p>
+                <button class="btn-primary">MORE ABOUT THE SERVICE</button>
+              </div>
+            </div>
+            <div class="col-lg-5 col-sm-12">
+              <div class="research-img p-3">
+                <img class="img-fluid" src="images/map.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= TECHNOLOGY SECTION START ========  -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h1 class="text-uppercase">Why our forest solutions?</h1>
+
+          <!-- <div class="white-heading-box">
+            <h5>extensive expertise</h5>
+            <div class="plus-circle"><i class="fa-solid fa-plus"></i></div>
+            <div class="minus-circle"><i class="fa-solid fa-minus"></i></div>
+          </div>
+          <div class="hidden-answer-box">
+            <p>
+              We have a unique combination of expertise from multiple fields –
+              ICT, GIS, project management and bio-economy. This is something
+              our clients appreciate: we don’t only offer them the latest
+              technology, we also understand their business thoroughly!
+            </p>
+          </div> -->
+
+          <!-- ============================
+          ============================ -->
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item white-heading-box">
+              <h2 class="accordion-header border-0" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Extensive expertise
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    We have a unique combination of expertise from multiple
+                    fields – ICT, GIS, project management and bio-economy. This
+                    is something our clients appreciate: we don’t only offer
+                    them the latest technology, we also understand their
+                    business thoroughly!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item white-heading-box">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Quick and cost-efficient implementations
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    As the result of strong focus on research and product
+                    development, we have created components from which we can
+                    quickly build systems to meet our clients’ specific needs.
+                    With our ready and tested solutions and services, we can
+                    make new client-based implementations quickly and with
+                    reasonable costs
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item white-heading-box">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  seamless integration with your current system
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    You won’t need to replace your existing information systems!
+                    Our scalable and quickly accessible cloud-based applications
+                    can easily be integrated to third-party platforms. Our
+                    solutions will bring significant value to your current
+                    information system!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-primary get-in-touch">Get in touch</button>
+          <div class="row text-center contact-logos">
+            <div class="col-lg-6 FINCSC-img contact-logo-img">
+              <div>
+                <img class="img-fluid" src="images/FINCSC.png" alt="" />
+              </div>
+              <div class="white-background">
+                <div class="blue-background">
+                  <img
+                    class="img-fluid w-25 text-center"
+                    src="images/angel-arrow.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 Archievers-img contact-logo-img">
+              <div>
+                <img class="img-fluid" src="images/Achievers.png" alt="" />
+              </div>
+              <div class="white-background">
+                <div class="blue-background">
+                  <img
+                    class="img-fluid w-25 text-center"
+                    src="images/angel-arrow.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= TECHNOLOGY SECTION START ========  -->
+      <section class="countdown">
+        <div class="container countdown-div text-center">
+          <div class="text-white">
+            <h1>4</h1>
+            <h6>OFFICES</h6>
+          </div>
+          <div class="text-white">
+            <h1>85</h1>
+            <h6>EXPERTS</h6>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- ======= FOOTER SECTION START ========  -->
+    <footer>
+      <section class="container links">
+        <div class="text-center links">
+          <a href="">Forest Information systems</a>
+          <a href="">forest analytics</a>
+          <a href="">change detection service</a>
+          <a href="">blog</a>
+          <a href="">career</a>
+          <a href="">privacy policy</a>
+          <a href="">references</a>
+          <a href="">open positions</a>
+          <a href="">contact information</a>
+        </div>
+
+        <div class="text-center copyright">
+          <p>
+            Bitcomp Oy, Yliopistonkatu 38, 40100 Jyväskylä, FINLAND, Tel. +358
+            400 731 127, firstname.lastname@bitcomp.fi
+          </p>
+        </div>
+      </section>
+    </footer>
 
     <!-- ===== BOOTSTRAP JS LINK =====  -->
     <script
@@ -330,6 +631,12 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- ===== AOS ANIMATION JS LINK =====  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- ===== JS LINK ===== -->
     <script src="js/main.js"></script>
