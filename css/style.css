@@ -114,7 +114,7 @@ p {
 /* ====== INTRODUCTION HEADING ======  */
 
 .header-container {
-  background-image: url(../images/bg-1.jpg);
+  background-image: url(../images/home/bg-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -463,8 +463,12 @@ button:focus:not(:focus-visible) {
 
 /* ===== FOOTER section =========  */
 footer {
-  margin: 5rem 5rem 2rem;
-  padding: 4rem 2.5rem;
+  margin-top: 7rem;
+}
+.links {
+  background-color: #fafafa;
+  /* background-color: #f5aaaa; */
+  padding: 5rem 4.5rem;
 }
 .links a {
   text-decoration: none;
@@ -482,4 +486,102 @@ footer {
 
 .copyright p {
   font-size: 1rem;
+}
+
+.policies-and-icons {
+  background-color: var(--light-blue);
+  padding: 1rem 3rem;
+}
+
+.policy-icon-div {
+  color: var(--text-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.policy a {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: var(--text-white);
+}
+.policy a:hover {
+  text-decoration: underline;
+}
+.icons i {
+  padding: 0.5rem;
+  color: var(--text-white);
+}
+.icons i:hover {
+  background-color: rgb(12, 180, 180);
+  border-radius: 50%;
+}
+/* ====================================================================
+                Foresta PAGE start 
+====================================================================    
+             */
+
+/* ===== HEADER section =========  */
+:root {
+  --green-color: #2b7e12;
+}
+
+.foresta-header-container {
+  background-image: url(../images/foresta/bg-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  background-attachment: fixed;
+}
+
+.heading-text {
+  color: var(--text-white);
+  text-align: center;
+  margin: auto;
+  padding: 16rem 0 0;
+}
+.heading-text h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+.heading-text h6 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+/* ===== FOREST RESOURCES MANAGEMENT section =========  */
+.management-introduction-div {
+  padding: 4rem 3.4rem 0;
+  position: relative;
+}
+
+.management-introduction-div h1 {
+  padding-bottom: 2.8rem;
+  color: var(--green-color);
+  font-size: 2.6rem;
+}
+
+.management-introduction-div p {
+  font-size: 1.5rem;
+}
+
+.underline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  width: 15%;
+  height: 0.1rem;
+  top: 3rem;
+  background-color: var(--green-color);
+}
+
+.management-introduction-div p strong {
+  font-weight: 600;
 }
