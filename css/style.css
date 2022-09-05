@@ -585,3 +585,31 @@ footer {
 .management-introduction-div p strong {
   font-weight: 600;
 }
+
+/* <!-- ======= management categories ======== --> */
+.category-icon {
+  background-color: var(--green-color);
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.category-icon i {
+  font-size: 2rem;
+  color: var(--text-white);
+}
+
+.category-details {
+  margin-left: 2rem;
+}
+
+.category-details h6 {
+  text-transform: uppercase;
+  color: var(--green-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
