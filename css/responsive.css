@@ -74,9 +74,9 @@
     margin-bottom: 2rem;
   }
 
-  /* ===== FOOTER section =========  */
-  footer {
-    margin-top: 5rem;
+  /* ===== COUNTDOWN section =========  */
+  .countdown {
+    margin-bottom: 5rem;
   }
 }
 
@@ -207,6 +207,17 @@
   .heading-text h6 {
     font-size: 2.4rem;
   }
+
+  /* <!--  ===== EFFICIENCY SECTION ========   --> */
+
+  .efficiency-text {
+    text-align: right;
+    padding: 0 0rem;
+  }
+
+  .efficiency-category {
+    padding: 0 0rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -234,6 +245,33 @@
 
   .management-introduction-div p {
     font-size: 1.2rem;
+  }
+
+  .category-monitor {
+    margin-top: 2rem;
+  }
+  .category-monitor img {
+    width: 100%;
+  }
+
+  .map-category-colum {
+    margin-top: 2rem;
+  }
+
+  /* <!--  ===== EFFICIENCY SECTION ========   --> */
+  .efficiency {
+    padding: 0 1rem;
+  }
+  .efficiency-text {
+    margin-bottom: 4rem;
+  }
+
+  /* <!--  ===== COMMON QUESTION SECTION ========   --> */
+  .question-answer-div {
+    margin-bottom: 2rem;
+  }
+  .common-questions h5 {
+    margin-bottom: 1rem;
   }
 }
 
@@ -269,7 +307,8 @@
 
   /* ===== FOREST RESOURCES MANAGEMENT section =========  */
   .management-introduction-div {
-    padding: 4rem 2.5rem 0;
+    /* padding: 4rem 2.5rem 0; */
+    padding: 4rem 2rem 0;
   }
   .management-introduction-div h1 {
     font-size: 1.8rem;
