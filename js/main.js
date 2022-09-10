@@ -19,18 +19,28 @@ hideBar.addEventListener("click", function () {
   showBar.style.display = "block";
 });
 
-// ////////// CONTACT SECTION
+/* ====================================================================
+              INFORMATION SYSTEM PAGE start 
+====================================================================   */
+// <!-- ======= 	BITCAMP GEO DATA SECTION  ========  -->
+document
+  .querySelector(".geo-data-logo-img")
+  .addEventListener("click", function () {
+    window.location.href =
+      "https://bitcomp.com/wp-content/uploads/2018/11/geodata.jpg";
+  });
 
-// const plusCircle = document.querySelector(".plus-circle");
-// const minusCircle = document.querySelector(".minus-circle");
-// console.log(plusCircle);
-// const hiddenAnswerBox = document.querySelector(".hidden-answer-box");
+const leafPoint = document.querySelector("#leaf-point-logo");
+leafPoint.addEventListener("click", () => {
+  window.location.href = "https://www.leafpoint.fi/";
+});
 
-// plusCircle.addEventListener("click", function () {
-//   console.log("click");
-//   hiddenAnswerBox.style.display = "block";
-// });
+const WoodApp = document.querySelector("#woodsApp-logo");
+WoodApp.addEventListener("click", () => {
+  window.location.href = "https://bitcomp.com/fi/woodsapp/";
+});
 
-document.querySelector(".FINCSC-img").addEventListener("click", function () {
-  console.log("click");
+const foresta = document.querySelector("#foresta-logo");
+foresta.addEventListener("click", () => {
+  window.location.href = "foresta.html";
 });

@@ -13,7 +13,8 @@
     padding: 10rem 2rem;
   }
 
-  .introduction-div .text h1 {
+  .introduction-div .text h1,
+  .info_system-introduction-div .text h1 {
     font-size: 4rem;
   }
   /* ============ GIS solutions ============ */
@@ -102,7 +103,9 @@
     padding-left: 0;
     padding: 5rem 2rem;
   }
-  .introduction-div .text h1 {
+
+  .introduction-div .text h1,
+  .info_system-introduction-div .text h1 {
     font-size: 2.2rem;
   }
 
@@ -148,7 +151,9 @@
   .introduction-div .text {
     padding: 2rem 2rem;
   }
-  .introduction-div .text h1 {
+
+  .introduction-div .text h1,
+  .info_system-introduction-div .text h1 {
     font-size: 2rem;
   }
 
@@ -342,4 +347,48 @@
   .management-introduction-div p {
     font-size: 0.8rem;
   }
+}
+
+/* ====================================================================
+              INFORMATION SYSTEM PAGE start 
+====================================================================     */
+@media (max-width: 992px) {
+  /* =====    INFORMATION SYSTEM  HEADER section =========  */
+  .info_system-introduction-div {
+    border-left: none;
+    width: 100%;
+  }
+
+  .info_system-introduction-div .text {
+    padding-left: 0;
+    padding: 0rem 5rem;
+    top: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* <!-- ======= 	BITCOMP GIS SOLUTIONS OFFER SECTION START ========  --> */
+  .solutions-offers {
+    display: block;
+  }
+
+  /* <!-- ======= 	OUR SOLUTIONS SECTION START ========  --> */
+  .our-solutions img {
+    width: 40%;
+    margin: 1.5rem auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* =====    INFORMATION SYSTEM  HEADER section =========  */
+  .info_system-introduction-div .text {
+    padding-right: 0;
+    padding: 2rem 3rem;
+    bottom: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+}
+@media (max-width: 280px) {
 }

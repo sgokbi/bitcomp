@@ -10,7 +10,8 @@
 :root {
   --primary-color: #18658a;
   --text-white: #fff;
-  --light-blue: #4095d2;
+  --light-blue: #2870a9;
+  --lighter-blue: #4095d2;
   --text-grey: #363636;
   --black: #191919;
   --paragraph-color: #202020;
@@ -19,7 +20,7 @@
 }
 
 p {
-  font-size: 1.08rem;
+  font-size: 1.15rem;
   color: var(--paragraph-color);
   letter-spacing: 0.02rem;
   font-weight: 300;
@@ -28,6 +29,31 @@ p {
 .section-space-separate {
   padding-top: 5.5rem;
   padding-bottom: 4rem;
+}
+
+.bg-blue {
+  background-color: var(--primary-color);
+}
+
+.color-blue {
+  color: var(--primary-color);
+}
+
+.blue-highlight {
+  color: var(--lighter-blue);
+  font-weight: 700;
+}
+
+.btn-primary {
+  padding: 0.4rem 1rem;
+  background-color: var(--primary-color);
+  /* width: 40%; */
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  font-weight: 100;
 }
 
 /* ====== NAVBAR ======  */
@@ -72,7 +98,7 @@ p {
   width: 0%;
   height: 0.15rem;
   position: absolute;
-  background-color: var(--light-blue);
+  background-color: var(--lighter-blue);
   top: 2.5rem;
   left: 0;
   transition: all 0.3s ease-in-out;
@@ -132,11 +158,13 @@ p {
   width: 50%;
   padding-top: 0;
 }
+
 .introduction-div .text {
   padding-left: 5rem;
 }
 
-.introduction-div .text h1 {
+.introduction-div .text h1,
+.info_system-introduction-div .text h1 {
   font-size: 4rem;
 }
 
@@ -159,22 +187,9 @@ p {
   margin: 1.4rem 0;
 }
 
-.btn-primary {
-  padding: 0.4rem 1rem;
-  background-color: var(--primary-color);
-  /* width: 40%; */
-  margin: 2rem auto;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
-  font-weight: 100;
-}
-
 /* ===== BLOG section =========  */
 .blogs {
   padding: 5rem 0;
-  background: var(--primary-color);
 }
 
 .blog-card {
@@ -215,7 +230,8 @@ p {
 }
 
 /* ===== CAREER section =========  */
-.career h1 {
+.career h1,
+.our-solutions h1 {
   color: var(--primary-color);
   position: relative;
   margin: 3rem 0 4rem;
@@ -223,13 +239,14 @@ p {
   justify-content: center;
 }
 
-.career h1::before {
+.career h1::before,
+.our-solutions h1::before {
   content: "";
   position: absolute;
-  width: 6%;
-  height: 1.4px;
+  width: 10%;
+  height: 1.5px;
   background-color: var(--primary-color);
-  top: 4rem;
+  top: 3rem;
   margin: 2.4rem auto;
 }
 
@@ -264,17 +281,17 @@ p {
 }
 
 /* ===== CONTACT section =========  */
-.contact {
+.get-in-touch {
   background-color: var(--bg-pinkis);
   padding: 4rem 10rem;
 }
 
-.contact h1 {
+.get-in-touch h1 {
   color: var(--primary-color);
   margin-bottom: 9rem;
 }
 
-.contact .white-heading-box {
+.get-in-touch .white-heading-box {
   padding: 1rem;
   margin-top: 3rem;
   border-top: 1px solid var(--light-blue);
@@ -316,15 +333,17 @@ button:focus:not(:focus-visible) {
   padding: 2rem;
 }
 
-.contact .get-in-touch {
+.contact .btn-touch {
   margin: 5rem 0;
 }
 
-.contact-logos {
+.in_touch-logos,
+.geo-data-logo {
   margin: 3rem 0;
 }
 
-.contact-logo-img {
+.in_touch-logo-img,
+.geo-data-logo-img {
   position: relative;
   height: 100%;
   width: 40%;
@@ -364,7 +383,8 @@ button:focus:not(:focus-visible) {
   transform: rotate(0.1turn);
 }
 
-.contact-logo-img:hover .white-background {
+.in_touch-logo-img:hover .white-background,
+.geo-data-logo-img:hover .white-background {
   display: block;
 }
 
@@ -753,4 +773,158 @@ footer {
 .trainer-info img:hover {
   /* transform: scale(1.2); */
   transform: translateY(-10px);
+}
+
+/* ====================================================================
+              INFORMATION SYSTEM PAGE start 
+====================================================================    
+             */
+
+/* =====    INFORMATION SYSTEM  HEADER section =========  */
+:root {
+  --light-blue: #2870a9;
+  --bg-bluish: #e8f0f4;
+}
+
+.info_system-header-container {
+  background-image: url(../images/info_system/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  position: relative;
+}
+
+.info_system-introduction-div {
+  position: absolute;
+  background-color: rgba(11, 64, 89, 0.8);
+  border-left: 15px solid #fff;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 50%;
+  width: 50%;
+  padding-top: 0;
+  right: 0;
+}
+
+.info_system-introduction-div .text {
+  text-align: end;
+  padding-right: 5rem;
+  position: absolute;
+}
+
+/* <!-- ======= FOREST MANAGEMENT SECTION START ========  --> */
+.forest-management-introduction h1 {
+  padding-bottom: 2rem;
+  color: var(--light-blue);
+}
+
+.forest-management-introduction > p {
+  font-size: 1.4rem;
+}
+
+/* <!-- ======= TRACKING AND MANAGING THROUGH DEVICE SECTION START ========  --> */
+.GIS-platform-text h1,
+.business-activities-map-text h1,
+.all-device-text h1,
+.geo-data-text h1 {
+  position: relative;
+  margin-bottom: 6.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.GIS-platform-text h1::before,
+.business-activities-map h1::before,
+.all-device-text h1::before,
+.geo-data-text h1::before {
+  content: "";
+  background-color: var(--text-white);
+  height: 1.5px;
+  width: 20%;
+  position: absolute;
+  top: 6rem;
+}
+
+.GIS-platform-text p {
+  color: var(--text-white);
+}
+
+.GIS-platform-text p > span {
+  font-weight: 700;
+}
+
+/* <!-- ======= 	VISUALIZE BUSINESS ACTIVITIES SECTION START ========  --> */
+.business-activities-map h1::before {
+  background-color: var(--primary-color);
+  top: 7.8rem;
+}
+
+.business-activities-map-text h1,
+.business-activities-map h5,
+.business-activities-map i,
+.all-device-text h1,
+.geo-data-text h1 {
+  color: var(--primary-color);
+}
+
+/* <!-- ======= FOR ALL SIZE DEVICE SECTION START ========  --> */
+.all-device {
+  background-color: var(--bg-grey);
+}
+
+.all-device-text h1::before,
+.geo-data-text h1::before {
+  background-color: var(--primary-color);
+}
+
+/* <!-- ======= 	BITCOMP GIS SOLUTIONS OFFER SECTION START ========  --> */
+.bg-bluish {
+  background-color: var(--bg-bluish);
+}
+
+.solutions-offers-1 .card {
+  border: 2px solid var(--text-white);
+}
+
+.solutions-offers i {
+  color: var(--primary-color);
+}
+
+.solutions-offers h6,
+.solutions-offers h5 {
+  color: var(--lighter-blue);
+}
+
+.solutions-offers .card-text {
+  font-size: 1rem;
+}
+
+/* <!-- ======= 	OUR SOLUTIONS SECTION START ========  --> */
+.our-solutions img {
+  width: 70%;
+  margin: auto;
+  cursor: pointer;
+}
+
+/* =============== CONTACT (SEND AN EMAIL) SECTION ========== */
+.send-email-form {
+  margin: 5.5rem 0;
+}
+
+.form-control:focus {
+  border-color: var(--lighter-blue);
+  box-shadow: none;
+}
+
+.send-email-form .submit {
+  width: 100%;
+  margin: 1rem auto;
+  text-transform: capitalize;
+}
+
+.send-email-form small {
+  font-size: 0.75rem;
+  color: rgb(104, 103, 103);
 }
