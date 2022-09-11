@@ -364,6 +364,9 @@
     padding: 0rem 5rem;
     top: 30%;
   }
+  .info_system-introduction-div .text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -385,6 +388,10 @@
     padding-right: 0;
     padding: 2rem 3rem;
     bottom: 30%;
+  }
+
+  .jani-mail {
+    font-size: 1rem;
   }
 }
 

@@ -47,7 +47,6 @@ p {
 .btn-primary {
   padding: 0.4rem 1rem;
   background-color: var(--primary-color);
-  /* width: 40%; */
   margin: 2rem auto;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -84,7 +83,6 @@ p {
 
 .navbar-nav .nav-link {
   text-transform: uppercase;
-  /* font-size: 0.9rem; */
   font-size: 0.9rem;
   margin-left: 0.4rem;
   color: var(--black) !important;
@@ -119,7 +117,6 @@ p {
 
 .navbar .dropdown-item {
   font-size: 0.8rem;
-  /* margin: 0.5rem; */
   padding: 0.5rem;
 }
 .navbar .dropdown-item:hover {
@@ -127,21 +124,9 @@ p {
   color: var(--text-white);
 }
 
-/* ++++++++++++++++ ======== hover show =====++++++++++++++++ */
-/* .drop-items {
-  display: none;
-}
-
-.navbar-nav .nav-item:hover .drop-items {
-  top: 100%;
-  left: 1rem;
-  margin-top: 1.7rem;
-  display: block;
-} */
-
 /* ====== INTRODUCTION HEADING ======  */
-
-.header-container {
+.header-container,
+.info_system-header-container {
   background-image: url(../images/home/bg-1.jpg);
   background-size: cover;
   background-position: center;
@@ -257,8 +242,6 @@ p {
 .career iframe {
   width: 90%;
   height: 100%;
-  /* width: 42.5rem;
-  height: 23.75rem; */
 }
 
 /* ===== RESEARCH & TECHNOLOGY section =========  */
@@ -266,6 +249,7 @@ p {
   background-color: var(--bg-grey);
   padding: 3rem 0;
 }
+
 .research-heading h1 {
   color: var(--primary-color);
 }
@@ -308,23 +292,21 @@ p {
 .accordion-flush .accordion-item:first-child {
   border-top: 1px solid var(--light-blue);
 }
+
 .accordion-flush .accordion-item:last-child {
   border-bottom: 1px solid var(--light-blue);
 }
 
 button:focus:not(:focus-visible) {
-  /* outline: 0; */
   outline: unset;
 }
+
 .accordion-button:focus {
-  /* outline: 0;  */
   outline: unset;
-  /* box-shadow: 0 0 0 0.25rem rgba(203, 213, 228, 0.25); */
   box-shadow: none;
 }
 
 .accordion-button:not(.collapsed) {
-  /* background-color: #e7f1ff; */
   background-color: unset;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 30%);
 }
@@ -388,77 +370,6 @@ button:focus:not(:focus-visible) {
   display: block;
 }
 
-/*================== ////////// this down code is from the original accordion class that i inspected  
-======================*/
-/* .accordion-button::after {
-  flex-shrink: 0;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-left: auto;
-  content: "";
-  background-repeat: no-repeat;
-  background-size: 1.25rem;
-  transition: transform 0.2s ease-in-out;
-  background-color: #18658a;
-} */
-/*================== ////////// this uper code is from the original accordion class that i inspected  
-======================*/
-
-/* .contact .white-heading-box {
-  background-color: #fff;
-  padding: 2rem;
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid var(--light-blue);
-  border-bottom: 1px solid var(--light-blue);
-} 
-
-.white-heading-box h5 {
-  font-weight: 300;
-  text-transform: uppercase;
-  color: var(--primary-color);
-} 
-
-.contact .plus-circle,
-.contact .minus-circle {
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--light-blue);
-  border: 2px solid#c2ddf0;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .plus-circle i,
-.contact .minus-circle i {
-  color: #b4d1e6;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .plus-circle:hover {
-  border: 2px solid var(--light-blue);
-}
-
-.contact .plus-circle:hover i {
-  color: var(--light-blue);
-}
-.contact .minus-circle {
-  display: none;
-}
-
-.contact .hidden-answer-box {
-  background-color: #fff;
-  padding: 2rem;
-  display: none;
-  transition: all 0.3s ease-in-out;
-}
-*/
-
 /* ===== COUNTDOWN section =========  */
 .countdown {
   background-color: var(--primary-color);
@@ -485,14 +396,11 @@ button:focus:not(:focus-visible) {
 }
 
 /* ===== FOOTER section =========  */
-footer {
-  /* margin-top: 7rem; */
-}
 .links {
   background-color: #fafafa;
-  /* background-color: #f5aaaa; */
   padding: 5rem 4.5rem;
 }
+
 .links a {
   text-decoration: none;
   padding: 0 1.2rem;
@@ -539,11 +447,10 @@ footer {
   background-color: rgb(12, 180, 180);
   border-radius: 50%;
 }
+
 /* ====================================================================
                 Foresta PAGE start 
-====================================================================    
-             */
-
+==================================================================== */
 /* ===== HEADER section =========  */
 :root {
   --green-color: #2b7e12;
@@ -576,7 +483,6 @@ footer {
 
 /* ===== FOREST RESOURCES MANAGEMENT section =========  */
 .management-introduction-div {
-  /* padding: 4rem 3.4rem 0; */
   padding: 4rem 0.5rem 0;
   position: relative;
 }
@@ -684,12 +590,12 @@ footer {
 }
 
 /* <!--  ===== Map CATEGORIES =========   --> */
-
 .maps-categories {
   background-color: #35383c;
   padding: 4rem 1.5rem;
   color: var(--text-white);
 }
+
 .maps-categories .text {
   text-align: center;
 }
@@ -749,6 +655,7 @@ footer {
   position: absolute;
   top: 5rem;
 }
+
 .common-questions h5 {
   color: var(--green-color);
   margin-bottom: 2rem;
@@ -771,15 +678,12 @@ footer {
 }
 
 .trainer-info img:hover {
-  /* transform: scale(1.2); */
   transform: translateY(-10px);
 }
 
 /* ====================================================================
               INFORMATION SYSTEM PAGE start 
-====================================================================    
-             */
-
+====================================================================  */
 /* =====    INFORMATION SYSTEM  HEADER section =========  */
 :root {
   --light-blue: #2870a9;
@@ -788,12 +692,6 @@ footer {
 
 .info_system-header-container {
   background-image: url(../images/info_system/header-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 85vh;
-  width: 100%;
-  position: relative;
 }
 
 .info_system-introduction-div {
@@ -884,7 +782,7 @@ footer {
   background-color: var(--bg-bluish);
 }
 
-.solutions-offers-1 .card {
+.solutions-offers .card {
   border: 2px solid var(--text-white);
 }
 
