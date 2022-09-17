@@ -1,3 +1,14 @@
+/* @media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 540px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 280px) {
+} */
+
 @media (max-width: 992px) {
   /* ============ HEADER DESCRIPTION ============ */
   .header-container {
@@ -8,15 +19,12 @@
     border-right: none;
     width: 100%;
   }
-  .introduction-div .text {
-    padding-left: 0;
-    padding: 10rem 2rem;
-  }
 
   .introduction-div .text h1,
   .info_system-introduction-div .text h1 {
     font-size: 4rem;
   }
+
   /* ============ GIS solutions ============ */
   .GIS-solutions-categories img {
     width: 60%;
@@ -32,14 +40,18 @@
   }
 
   /* ============ CAREER section ============ */
-  .career .video {
+  .career .video,
+  .forest-center .video,
+  .career-video-section .video {
     height: 28vh;
   }
 
-  .career iframe {
+  /* .career iframe,
+  .forest-center iframe,
+  .career-video-section .video iframe {
     width: 100%;
     height: 100%;
-  }
+  } */
 
   /* ===== FOOTER section =========  */
   .links {
@@ -99,18 +111,15 @@
     height: 70vh;
   }
 
-  .introduction-div .text {
-    padding-left: 0;
-    padding: 5rem 2rem;
-  }
-
   .introduction-div .text h1,
   .info_system-introduction-div .text h1 {
     font-size: 2.2rem;
   }
 
   /* ============ CAREER section ============ */
-  .career .video {
+  .career .video,
+  .forest-center .video,
+  .career-video-section .video {
     height: 35vh;
   }
 
@@ -121,6 +130,12 @@
 }
 
 @media (max-width: 480px) {
+  /* ============ HEADER DESCRIPTION ============ */
+  .introduction-div .text h1,
+  .info_system-introduction-div .text h1 {
+    font-size: 2rem;
+  }
+
   /* ============ BLOG section ============ */
   .blog-heading {
     padding: 2rem 1.2rem;
@@ -140,21 +155,18 @@
   }
 
   /* ============ CAREER section ============ */
-  .career .video {
+  .career .video,
+  .forest-center .video,
+  .career-video-section .video {
     height: 30vh;
   }
 }
 
 @media (max-width: 280px) {
   /* ============ HEADER DESCRIPTION ============ */
-
-  .introduction-div .text {
-    padding: 2rem 2rem;
-  }
-
   .introduction-div .text h1,
   .info_system-introduction-div .text h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   /* ============ BLOG section ============ */
@@ -171,7 +183,9 @@
     font-size: 0.5rem;
   }
   /* ============ CAREER section ============ */
-  .career .video {
+  .career .video,
+  .forest-center .video,
+  .career-video-section .video {
     height: 25vh;
   }
 
@@ -203,18 +217,15 @@
 ====================================================================    */
 @media (max-width: 992px) {
   /* ===== HEADER section =========  */
-  .heading-text {
-    padding: 20rem 2.4rem 0;
-  }
   .heading-text h1 {
     font-size: 6.5rem;
   }
+
   .heading-text h6 {
     font-size: 2.4rem;
   }
 
   /* <!--  ===== EFFICIENCY SECTION ========   --> */
-
   .efficiency-text {
     text-align: right;
     padding: 0 0rem;
@@ -230,12 +241,11 @@
   .foresta-header-container {
     height: 80vh;
   }
-  .heading-text {
-    padding: 12rem 2.4rem 0;
-  }
+
   .heading-text h1 {
     font-size: 5rem;
   }
+
   .heading-text h6 {
     font-size: 2rem;
   }
@@ -244,6 +254,7 @@
   .management-introduction-div {
     padding: 4rem 1.4rem 0;
   }
+
   .management-introduction-div h1 {
     font-size: 2.2rem;
   }
@@ -282,12 +293,10 @@
 
 @media (max-width: 540px) {
   /* ===== HEADER section =========  */
-  .heading-text {
-    padding: 15rem 2.4rem 0;
-  }
   .heading-text h1 {
     font-size: 3.5rem;
   }
+
   .heading-text h6 {
     font-size: 1.7rem;
   }
@@ -300,9 +309,10 @@
 
 @media (max-width: 480px) {
   /* /* ===== HEADER section =========  */
-  .heading-text {
-    padding: 14rem 2.4rem 0;
+  .foresta-header-container {
+    height: 55vh;
   }
+
   .heading-text h1 {
     font-size: 3.1rem;
   }
@@ -329,12 +339,11 @@
   .foresta-header-container {
     height: 60vh;
   }
-  .heading-text {
-    padding: 10rem 2.5rem 0;
-  }
+
   .heading-text h1 {
     font-size: 2.5rem;
   }
+
   .heading-text h6 {
     font-size: 1.2rem;
   }
@@ -358,15 +367,6 @@
     border-left: none;
     width: 100%;
   }
-
-  .info_system-introduction-div .text {
-    padding-left: 0;
-    padding: 0rem 5rem;
-    top: 30%;
-  }
-  .info_system-introduction-div .text {
-    text-align: center;
-  }
 }
 
 @media (max-width: 768px) {
@@ -383,19 +383,51 @@
 }
 
 @media (max-width: 540px) {
-  /* =====    INFORMATION SYSTEM  HEADER section =========  */
-  .info_system-introduction-div .text {
-    padding-right: 0;
-    padding: 2rem 3rem;
-    bottom: 30%;
-  }
-
   .jani-mail {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
+  /* =====    INFORMATION SYSTEM  HEADER section =========  */
+  .info_system-header-container,
+  .reference-header {
+    height: 55vh;
+  }
+}
+
+/* ====================================================================
+              REFERENCE PAGE start 
+====================================================================     */
+@media (max-width: 768px) {
+  .reference-text h1 {
+    font-size: 3rem;
+  }
+}
+
+/* ====================================================================
+              CAREER PAGE start 
+====================================================================     */
+
+@media (max-width: 992px) {
+  .open-position-pic {
+    width: 62%;
+  }
+}
+
+@media (max-width: 768px) {
+  .reference-text h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 540px) {
+}
+
+@media (max-width: 480px) {
+  .open-position-pic {
+    height: 25vh;
+  }
 }
 @media (max-width: 280px) {
 }

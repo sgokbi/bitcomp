@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitcomp</title>
+
+    <link
+      rel="shortcut icon"
+      href="images/home/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- ===== BOOTSTRAP CSS LINK =====  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- ===== FONT AWESOME LINK =====  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ===== AOS ANIMATION LINK =====  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm"
+      >
+        <div class="container">
+          <a class="navbar-brand w-50" href="index.html"
+            ><img class="" src="images/home/Bitcompin-logo-croped.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="show-bar navbar-toggler-icon"></span>
+            <span> <i class="hide-bar fa-solid fa-xmark"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Forest information systems
+                </a>
+                <ul
+                  class="drop-items dropdown-menu border-0 bg-white shadow"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item me-5" href="foresta.html">Forest</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://www.leafpoint.fi/">
+                      LeafPoint</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="informationSystem.html"
+                      >Custom Forest Information System</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Forest analytics
+                </a>
+                <ul
+                  class="drop-items dropdown-menu border-0 bg-white shadow"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">EnviNavigator</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Change Direction Service</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="reference.html">references</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="career.html">career</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About us
+                </a>
+                <ul
+                  class="drop-itmes dropdown-menu border-0 bg-white shadow"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Bitcomp Oy</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">English</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ========= HEADER CONTAINER ========  -->
+      <div class="header-container reference-header">
+        <div class="introduction-div h-100 text-white p-4">
+          <div class="reference-text">
+            <h1 class="text-uppercase">references</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======= MAIN SECTION START ========  -->
+    <main>
+      <!-- ============= clients review slider section =============== -->
+      <section class="section-space-separate">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="text-uppercase headline-underline">
+              what our clients says about us
+            </h1>
+
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner p-4">
+                <div class="carousel-item active">
+                  <div class="review-box mt-5 mb-3">
+                    <h4>
+                      ”It is great to work with professionals. The skilled staff
+                      at Bitcomp are familiar with the forestry industry to its
+                      core, and their long experience is also visible in their
+                      IT skills, particularly regarding geographic information.”
+                    </h4>
+                    <p class="mt-5 fs-5">
+                      – Ilkka Liukkonen, IT Manager, Stora Enso Oyj
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="review-box mt-5 mb-3">
+                    <h4>
+                      ”Co-operation with Bitcomp Oy has been effortless; and
+                      they have adhered to the agreed schedules and expenses.
+                      The suppliers have provided good presentations by their
+                      own initiative, as to how to support business activities
+                      with information system tools. I can highly recommend
+                      Bitcomp Oy as an information system supplier.”
+                    </h4>
+                    <p class="mt-5 fs-5">
+                      – Juha Jumppanen, Member Services Manager, Metsä Group
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="review-box mt-5 mb-3">
+                    <h4>
+                      ”The guys at Bitcomp are real experts on the IT and
+                      forestry sector. With their help, we have been able to
+                      build the best tools in Finland.”
+                    </h4>
+                    <p class="mt-5 fs-5">
+                      – Juha Immonen, IT Manager, Tornator Oyj
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ STORA ENSO ========== -->
+      <section class="section-space-separate stora-enso bg-linear-gradient">
+        <div class="container">
+          <div class="row p-3 p-lg-0">
+            <div
+              class="col-lg-7 d-flex align-items-center justify-content-center"
+            >
+              <div class="text">
+                <h1 class="mb-5">STORA ENSO</h1>
+                <p>
+                  Stora Enso is a leading provider of renewable solutions in
+                  packaging, biomaterials, wooden constructions and paper on
+                  global markets. Bitcomp has supplied web-based forestry
+                  applications for Stora Enso, based on the BitApps product.
+                  These services are aimed for both at users inside the company
+                  and private forest owners. The execution features of eMetsä
+                  are interactivity, ease of use, and seamless integration with
+                  other systems of the company.
+                </p>
+                <p>
+                  eMetsä Mobile is a mobile service that can brings forest
+                  planning, maps and location services to the pockets of eMetsä
+                  users. Bitcomp Oy has delivered mobile services for Stora
+                  Enso´s forest owner customers. Apart from mobile services, the
+                  main function of the service is to provide an easy way for
+                  forest owners to communicate with experts of Stora Enso.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 mt-4 mt-lg-0">
+              <div
+                class="logo-pic d-flex justify-content-center stora-logo logo-hover-effect"
+              >
+                <img
+                  src="images/reference/stora-ensa.png"
+                  alt=""
+                  class="img-fluid w-75"
+                />
+
+                <div class="white-background">
+                  <div class="blue-background">
+                    <img
+                      class="img-fluid w-25 text-center"
+                      src="images/home/angel-arrow.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ FINNISH FOREST CENTRE ========== -->
+      <section class="section-space-separate forest-center">
+        <div class="container">
+          <div class="row p-3 p-lg-0">
+            <div class="col-lg-5">
+              <div class="video">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/Kx9ndXO6sk0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div
+              class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-center justify-content-center"
+            >
+              <div class="text">
+                <h1 class="mb-5">FINNISH FOREST CENTRE</h1>
+                <p>
+                  The Finnish Forest Centre is a state-funded organisation
+                  covering the whole country. They are tasked with promoting
+                  forestry and related livelihoods, advising landowners on how
+                  to care for and benefit from their forests and the ecosystems
+                  therein, collecting and sharing data related to Finland’s
+                  forests and enforcing forestry legislation.
+                </p>
+                <p>
+                  The Finnish Forest Centre is one of the first users of the
+                  Change Detection Service. They rolled out a national system of
+                  tracking forest logging by satellite. Authorities will be able
+                  to compare the maps it generates with logging notifications
+                  from landowners and timber owners.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ TORNATOR OYJ ========== -->
+      <section class="section-space-separate tornator-oy bg-linear-gradient">
+        <div class="container">
+          <div class="row p-3 p-lg-0">
+            <div
+              class="col-lg-7 d-flex align-items-center justify-content-center"
+            >
+              <div class="text">
+                <h1 class="mb-5">TORNATOR OYJ</h1>
+                <p>
+                  Tornator is a leading company specialised in sustainable
+                  forest management in Europe and they own forests in Finland,
+                  Estonia and Romania. Bitcomp and Tornator have been in
+                  co-operation for almost ten years. Bitcomp has executed
+                  Tornator’s ERP system, which helps run the operative side of
+                  the entire business. The most recent project that was launched
+                  was a cooperation project with Fortum, dealing with the
+                  information system of the origin information of wood fuels.
+                </p>
+                <p>
+                  Bitcomp has also been created a house plot sales system for
+                  Tornator. Tornamarket is a web-based marketing portal of
+                  waterfront and forest lots. With Tornamarket you can find
+                  available property on the map. It displays waterfront and
+                  forest lots in a user-friendly way. You can easily compare
+                  lots and their quality. You can define search terms like
+                  region, municipality or price. Tornamarket can be scaled for
+                  various screen sizes.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-5 mt-4 mt-lg-0 d-flex align-items-center justify-content-center"
+            >
+              <div class="logo-pic p-5">
+                <img
+                  src="images/reference/tornator- oyj.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ 	OP FINANCIAL GROUP ========== -->
+      <section class="section-space-separate op-group">
+        <div class="container">
+          <div class="row p-3 p-lg-0">
+            <div
+              class="col-lg-5 mt-4 mt-lg-0 d-flex align-items-center justify-content-center"
+            >
+              <div class="p-5">
+                <img
+                  src="images/reference/op-groupe.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-7 d-flex align-items-center justify-content-center"
+            >
+              <div class="text">
+                <h1 class="mb-5">OP FINANCIAL GROUP</h1>
+                <p>
+                  OP Financial Group is Finland’s largest financial services
+                  group. The Group consists of some 180 independent member
+                  cooperative banks and OP Cooperative which they own, including
+                  its subsidiaries and closely related companies
+                </p>
+                <p>
+                  OP Forest allows forest owners to see all their properties and
+                  assets in a single service. The service combines available
+                  information such as forest property information from the
+                  Metsään.fi service and presents it in a clear,
+                  easy-to-understand form. In addition to the current and
+                  estimated net worth of forest properties, OP Forest presents
+                  forest maintenance recommendations and financial advice for
+                  forest owners.
+                </p>
+                <p>
+                  This online service is only accessible to Finnish forest
+                  property owners. All you need is the real estate IDs. The use
+                  of the service is free.
+                </p>
+                <button class="btn-primary">
+                  <a
+                    href="https://www.op.fi/private-customers/themes/services-for-forest-owners/op-forest-tells-the-value-of-your-forest"
+                    >READ MORE ABOUT OP FOREST</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ OUR-CUSTOMER ========== -->
+      <section class="section-space-separate our-customer">
+        <div class="container p-3">
+          <h1 class="headline-underline text-uppercase">Our customers</h1>
+
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner p-4">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-1-meta.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-1.2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-1.3.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-1.4.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-1.5.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-2.1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-2.2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-2.3.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-2.4.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-2.5.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-3.1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                  >
+                    <img
+                      src="images/reference/slide-3.2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======= FOOTER SECTION START ========  -->
+    <footer>
+      <section class="links">
+        <div class="container">
+          <div class="text-center">
+            <a href="">Forest Information systems</a>
+            <a href="">forest analytics</a>
+            <a href="">change detection service</a>
+            <a href="">blog</a>
+            <a href="">career</a>
+            <a href="">privacy policy</a>
+            <a href="">references</a>
+            <a href="">open positions</a>
+            <a href="">contact information</a>
+          </div>
+
+          <div class="text-center copyright">
+            <p>
+              Bitcomp Oy, Yliopistonkatu 38, 40100 Jyväskylä, FINLAND, Tel. +358
+              400 731 127, firstname.lastname@bitcomp.fi
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="policies-and-icons">
+        <div class="policy-icon-div">
+          <div class="policy">
+            <small> <a href="">Features</a></small>
+            <small><a href="">Datasets</a></small>
+            <small><a href="">Pricing</a></small>
+            <small><a href="">Privacy Policy</a></small>
+            <small><a href="">Start a free trial!</a></small>
+          </div>
+          <div class="icons">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""> <i class="fab fa-instagram"></i></a>
+            <a href=""> <i class="fab fa-twitter"></i></a>
+            <a href=""> <i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- ===== BOOTSTRAP JS LINK =====  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ===== AOS ANIMATION JS LINK =====  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- ===== JS LINK ===== -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
