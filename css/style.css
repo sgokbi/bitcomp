@@ -538,12 +538,13 @@ button:focus:not(:focus-visible) {
 }
 
 /* <!-- ======= management categories ======== --> */
-.category {
+.management-categories .category {
   padding: 0 0.4rem;
   margin-bottom: 2rem;
 }
 
-.category-icon {
+.management-categories .category-icon,
+.efficiency-category .category-icon {
   background-color: var(--green-color);
   width: 3.8rem;
   height: 3.8rem;
@@ -554,23 +555,25 @@ button:focus:not(:focus-visible) {
   padding: 0 2rem;
 }
 
-.category-icon i {
+.management-categories .category-icon i,
+.efficiency-category .category-icon i {
   font-size: 2rem;
   color: var(--text-white);
 }
 
-.category-details {
+.management-categories .category-details,
+.efficiency-category .category-details {
   margin-left: 2rem;
 }
 
-.category-details h6 {
+.management-categories .category-details h6 {
   text-transform: uppercase;
   color: var(--green-color);
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.category-monitor img {
+.management-categories .category-monitor img {
   width: 75%;
 }
 
@@ -726,24 +729,6 @@ button:focus:not(:focus-visible) {
   align-items: center;
   justify-content: center;
 }
-
-/* .introduction-div {
-  position: absolute;
-  background-color: rgba(11, 64, 89, 0.8);
-  border-right: 15px solid #fff;
-  border-radius: 0 0% 50% 0;
-  width: 50%;
-  padding-top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* .info_system-introduction-div .text {
-  text-align: end;
-  padding-right: 5rem;
-  position: absolute;
-} */
 
 /* <!-- ======= FOREST MANAGEMENT SECTION START ========  --> */
 .forest-management-introduction h1 {
@@ -962,4 +947,43 @@ button:focus:not(:focus-visible) {
 
 .career-blog-section .card:hover h3 {
   color: var(--primary-color);
+}
+
+.offer-for-employees h1 {
+  color: var(--text-white);
+  position: relative;
+  margin: 3rem 0 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.offer-for-employees h1::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1.5px;
+  background-color: var(--text-white);
+  top: 3rem;
+  margin: 2.4rem auto;
+}
+
+.offer-for-employees .categories {
+  margin: 6rem 0;
+}
+
+.offer-for-employees .category-icon {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid var(--text-white);
+  border-radius: 50%;
+  padding: 0 2rem;
+}
+
+.offer-for-employees .category-icon i {
+  font-size: 2rem;
+  color: var(--text-white);
+}
+
+.join-bitcomp-team p {
+  color: var(--text-white);
 }

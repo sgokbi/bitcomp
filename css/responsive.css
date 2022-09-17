@@ -46,13 +46,6 @@
     height: 28vh;
   }
 
-  /* .career iframe,
-  .forest-center iframe,
-  .career-video-section .video iframe {
-    width: 100%;
-    height: 100%;
-  } */
-
   /* ===== FOOTER section =========  */
   .links {
     padding: 5rem 2.5rem;
@@ -63,6 +56,7 @@
     display: block;
     text-align: center;
   }
+
   .icons {
     margin-top: 1rem;
   }
@@ -421,13 +415,8 @@
   }
 }
 
-@media (max-width: 540px) {
-}
-
 @media (max-width: 480px) {
   .open-position-pic {
     height: 25vh;
   }
-}
-@media (max-width: 280px) {
 }
