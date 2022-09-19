@@ -84,6 +84,24 @@ p {
   margin: 2.4rem auto;
 }
 
+.headline-left-underline {
+  color: var(--primary-color);
+  position: relative;
+  margin: 0rem 0 8rem;
+  display: flex;
+  justify-content: start;
+}
+
+.headline-left-underline::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1.5px;
+  background-color: var(--primary-color);
+  top: 3rem;
+  margin: 2.4rem auto;
+}
+
 /* ==== logo hover effect ==== */
 .logo-hover-space {
   margin: 3rem 0;
@@ -854,7 +872,8 @@ button:focus:not(:focus-visible) {
   background-image: url(../images/reference/bg-1.png);
 }
 
-.reference-text h1 {
+.reference-text h1,
+.about-us-header {
   font-size: 4.2rem;
 }
 
@@ -986,4 +1005,38 @@ button:focus:not(:focus-visible) {
 
 .join-bitcomp-team p {
   color: var(--text-white);
+}
+
+/* ===========================================
+        ABOUT US BITCOMP OY PAGE START   
+=================================================         */
+.about-us-header {
+  background-image: url(../images/about-us/bg-3.jpg);
+  height: 65vh;
+}
+
+.creative-group-heading {
+  background: linear-gradient(rgb(33, 81, 117, 0.9), rgb(33, 81, 117, 0.9)),
+    url(../images/about-us/bg-2.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.offices {
+  background-color: var(--bg-grey);
+}
+.icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+
+  padding: 0 2rem;
+  border: 1px solid var(--primary-color);
+}
+
+.icon {
+  font-size: 2rem;
+  color: var(--primary-color);
 }
