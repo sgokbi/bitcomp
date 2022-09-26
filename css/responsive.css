@@ -21,7 +21,8 @@
   }
 
   .introduction-div .text h1,
-  .info_system-introduction-div .text h1 {
+  .info_system-introduction-div .text h1,
+  .analytics-header .text h1 {
     font-size: 4rem;
   }
 
@@ -106,7 +107,8 @@
   }
 
   .introduction-div .text h1,
-  .info_system-introduction-div .text h1 {
+  .info_system-introduction-div .text h1,
+  .analytics-header .text h1 {
     font-size: 2.2rem;
   }
 
@@ -126,7 +128,8 @@
 @media (max-width: 480px) {
   /* ============ HEADER DESCRIPTION ============ */
   .introduction-div .text h1,
-  .info_system-introduction-div .text h1 {
+  .info_system-introduction-div .text h1,
+  .analytics-header .text h1 {
     font-size: 2rem;
   }
 
@@ -159,7 +162,8 @@
 @media (max-width: 280px) {
   /* ============ HEADER DESCRIPTION ============ */
   .introduction-div .text h1,
-  .info_system-introduction-div .text h1 {
+  .info_system-introduction-div .text h1,
+  .analytics-header .text h1 {
     font-size: 1.4rem;
   }
 
@@ -418,5 +422,32 @@
 @media (max-width: 480px) {
   .open-position-pic {
     height: 25vh;
+  }
+}
+
+/* ====================================================================
+            ANALYTICS PAGE start 
+====================================================================     */
+@media (max-width: 992px) {
+  .analytics-intro {
+    width: 90%;
+  }
+
+  .AI-img img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .analytics-intro {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 280px) {
+  .intro-heading::before {
+    top: 4.8rem;
   }
 }
