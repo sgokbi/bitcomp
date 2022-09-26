@@ -1032,7 +1032,7 @@ button:focus:not(:focus-visible) {
   background-size: cover;
   background-attachment: fixed;
 }
-.offices {
+.bitcomp-offices {
   background-color: var(--bg-grey);
 }
 .icon {
@@ -1211,6 +1211,38 @@ button:focus:not(:focus-visible) {
   background-color: var(--bg-bluish);
 }
 
-.contact-form p {
-  font-size: 0.75rem;
+.contact-form small {
+  font-size: 0.65rem;
+}
+
+/* ===========================================
+    CONTACT PAGE START   
+=================================================         */
+
+.contact-us-header {
+  background: linear-gradient(rgba(33, 81, 117, 0.5), rgba(33, 81, 117, 0.5)),
+    url(../images/contact/bg-1.png);
+  height: 70vh;
+}
+
+.offices-map {
+  background-image: url(../images/contact/map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.the-team-leaders h1 {
+  font-size: 3rem;
+}
+
+.the-team-leaders .card {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.the-team-leaders .card:hover {
+  box-shadow: 8px 8px 8px 8px rgb(150, 147, 147);
+  transform: translateY(-5px);
 }
