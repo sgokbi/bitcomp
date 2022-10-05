@@ -638,6 +638,53 @@ button:focus:not(:focus-visible) {
   transform: translateX(8px);
 }
 
+/* ========== all systems tools ===== */
+.all-systems-tools-buttons {
+  background-color: var(--bg-grey);
+  padding: 5rem 0 0;
+}
+
+.systems-buttons .button {
+  cursor: pointer;
+  margin: 1rem 1.6rem 0;
+}
+
+.systems-buttons .button i {
+  font-size: 2.5rem;
+  color: gray;
+  margin-bottom: 0.8rem;
+}
+
+.systems-buttons .button p {
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: 500;
+}
+
+.systems-buttons .button.active i,
+.systems-buttons .button.active p {
+  color: var(--green-color);
+}
+
+.all-systems-tools-contents {
+  padding: 3rem 0;
+  margin: 3rem 0;
+  height: 105vh;
+}
+
+.systems-contents .content h1 {
+  color: var(--green-color);
+}
+
+.systems-contents .content {
+  position: absolute;
+  z-index: 10;
+  display: none;
+}
+.systems-contents .content.active {
+  display: initial;
+}
+
 /* <!--  ===== Map CATEGORIES =========   --> */
 .maps-categories {
   background-color: #35383c;

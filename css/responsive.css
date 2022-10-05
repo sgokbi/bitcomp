@@ -223,6 +223,11 @@
     font-size: 2.4rem;
   }
 
+  /* ====== ALL SYSTEM TOOLS ======== */
+  .all-systems-tools-contents {
+    height: 75vh;
+  }
+
   /* <!--  ===== EFFICIENCY SECTION ========   --> */
   .efficiency-text {
     text-align: right;
@@ -246,6 +251,11 @@
 
   .heading-text h6 {
     font-size: 2rem;
+  }
+
+  /* ====== ALL SYSTEM TOOLS ======== */
+  .all-systems-tools-contents {
+    height: 100vh;
   }
 
   /* ===== FOREST RESOURCES MANAGEMENT section =========  */
@@ -299,6 +309,11 @@
     font-size: 1.7rem;
   }
 
+  /* ====== ALL SYSTEM TOOLS ======== */
+  .all-systems-tools-contents {
+    height: 150vh;
+  }
+
   /* ===== FOREST RESOURCES MANAGEMENT section =========  */
   .management-introduction-div {
     padding: 4rem 2.4rem 0;
@@ -316,6 +331,11 @@
   }
   .heading-text h6 {
     font-size: 1.5rem;
+  }
+
+  /* ====== ALL SYSTEM TOOLS ======== */
+  .all-systems-tools-contents {
+    height: 175vh;
   }
 
   /* ===== FOREST RESOURCES MANAGEMENT section =========  */
@@ -344,6 +364,11 @@
 
   .heading-text h6 {
     font-size: 1.2rem;
+  }
+
+  /* ====== ALL SYSTEM TOOLS ======== */
+  .all-systems-tools-contents {
+    height: 235vh;
   }
 
   /* ===== FOREST RESOURCES MANAGEMENT section =========  */
